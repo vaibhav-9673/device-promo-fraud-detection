@@ -5,7 +5,7 @@ SQL, Power BI and Python based fraud detection project to identify promo abuse u
 Online platforms that offer new-user promotions (such as discounts, cashback, or free deliveries) often face significant revenue leakage due to promo abuse. A common abuse pattern occurs when users create multiple accounts to repeatedly claim benefits intended for first-time users.
 
 #### Traditional fraud-prevention checks typically rely on phone numbers, email IDs, to identify unique users. However, these methods are easily bypassed because:
-<br> 1. Phone numbers can be changed or obtained easily
+<br> 1. Phone numbers can be changed or obtained easily.
 <br> 2. Email addresses can be created in seconds
 <br> 3. Users can log out and re-register with minimal effort
 
