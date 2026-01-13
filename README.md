@@ -62,7 +62,7 @@ The objective of this project is to identify and analyze promo abuse and fraudul
 The project begins by creating a relational database to store user signup and order behavior data, which is required to analyze promotional abuse patterns.
 
 **Table Creation**
-The database contains the following core tables:
+<br>(The database contains the following core tables:)
 
 **Table 01: users**
 <br>Stores user-level information such as:
@@ -285,7 +285,8 @@ This project demonstrates how device-level analysis combined with user and order
 2. Detection of users with abnormally high promo usage and rapid signup-to-order behavior
 3. Use of rule-based and percentage-driven metrics to ensure explainable and unbiased fraud detection
 4. Creation of analysis-ready datasets that support dashboarding, reporting, and future model development
-    <br>Overall, this project showcases an end-to-end fraud analytics workflow using SQL, Power BI, and Python, demonstrating how structured data analysis can help organizations reduce promo misuse, protect revenue, and support data-driven decision-making. The solution is scalable and can be further enhanced by integrating AI/ML models for automated, real-time fraud prevention.
+
+   Overall, this project showcases an end-to-end fraud analytics workflow using SQL, Power BI, and Python, demonstrating how structured data analysis can help organizations reduce promo misuse, protect revenue, and support data-driven decision-making. The solution is scalable and can be further enhanced by integrating AI/ML models for automated, real-time fraud prevention.
 
 ### Author: Vaibhav Gade
 This project is part of my data analytics portfolio and demonstrates practical skills in **MySQL, Power BI,** and **Python** applied to fraud analysis and business-oriented data insights, relevant to Data Analyst and Business Analyst roles.
