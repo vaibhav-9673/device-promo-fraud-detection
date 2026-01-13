@@ -1,6 +1,6 @@
 # device-promo-abuse-detection
 SQL, Power BI and Python based fraud detection project to identify promo abuse using user behavior analysis.
-
+---
 **Project Structure**
 ```
 device-level-promo-abuse-detection/
@@ -55,7 +55,7 @@ The objective of this project is to identify and analyze promo abuse and fraudul
 <br> 4.Provide actionable insights for fraud prevention without relying on heavy machine learning models
 <br> 5.The solution focuses on rule-based and behavioral analysis, making it transparent, explainable, and scalable for real-world fraud monitoring systems.
 
-----
+---
 
 ### 1. Database Setup
 **Database Creation**
@@ -138,6 +138,7 @@ WHERE order_id IS NULL
    OR order_date IS NULL
    OR promo_used IS NULL;
 ```
+---
 
 ### 📊 Data Analysis & Findings
 <br>This section presents key insights derived from analyzing user behavior, device usage, and order patterns to identify potential new-user promo abuse.
@@ -276,7 +277,7 @@ GROUP BY u.user_id, u.city;
 2. Fraudulent users tend to place orders immediately after signup
 3. Promo abuse is highly concentrated among users sharing devices
 4. Combining multiple behavioral signals yields more reliable fraud detection
-
+---
 ### ✅ Conclusion
 This project demonstrates how device-level analysis combined with user and order behavior can effectively identify new-user promo abuse using data analytics techniques. By linking multiple user accounts through shared device information and analyzing promo usage patterns, the project highlights how fraudulent behavior can be detected without relying on complex machine learning models.
 
@@ -287,7 +288,7 @@ This project demonstrates how device-level analysis combined with user and order
 4. Creation of analysis-ready datasets that support dashboarding, reporting, and future model development
 
    Overall, this project showcases an end-to-end fraud analytics workflow using SQL, Power BI, and Python, demonstrating how structured data analysis can help organizations reduce promo misuse, protect revenue, and support data-driven decision-making. The solution is scalable and can be further enhanced by integrating AI/ML models for automated, real-time fraud prevention.
-
+---
 ### Author: Vaibhav Gade
 This project is part of my data analytics portfolio and demonstrates practical skills in **MySQL, Power BI,** and **Python** applied to fraud analysis and business-oriented data insights, relevant to Data Analyst and Business Analyst roles.
 
