@@ -17,7 +17,7 @@ As a result, the same individual can appear as multiple “new users” in the s
 <br> 3. Legitimate users are indirectly affected due to stricter promo policies
 
 Therefore, the key challenge is to identify and link accounts that appear different at the user level but originate from similar behavioral or device-level patterns, enabling the platform to detect and prevent promo abuse at scale.
-
+---
 ## 🎯 Objective
 
 The objective of this project is to identify and analyze promo abuse and fraudulent user behavior on an online platform where users create multiple accounts to misuse new-user promotional offers.
@@ -27,38 +27,30 @@ The objective of this project is to identify and analyze promo abuse and fraudul
 <br> 4.Provide actionable insights for fraud prevention without relying on heavy machine learning models
 <br> 5.The solution focuses on rule-based and behavioral analysis, making it transparent, explainable, and scalable for real-world fraud monitoring systems.
 
-1. Database Setup
-Database Creation
+----
 
+
+
+##### 1. Database Setup
+**Database Creation**
 The project begins by creating a relational database to store user signup and order behavior data, which is required to analyze promotional abuse patterns.
 
-Table Creation
-
+**Table Creation**
 The database contains the following core tables:
 
-users
+**Table 01: users**
 Stores user-level information such as:
+1. user_id
+2. signup_date
+3. city
 
-user_id
-
-signup_date
-
-city
-
-orders
+**Table 02: orders**
 Stores transactional data related to user orders:
-
-order_id
-
-user_id
-
-order_date
-
-order_amount
-
-promo_used (boolean flag indicating promo usage)
-
-These tables represent the minimum realistic schema required to analyze new-user promo abuse at scale.
+1. order_id
+2. user_id
+3. order_date
+4. order_amount
+5. promo_used (boolean flag indicating promo usage)
 
 #### SQL Schema Definition
 ```
