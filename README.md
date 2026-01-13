@@ -1,10 +1,35 @@
 # device-promo-abuse-detection
 SQL, Power BI and Python based fraud detection project to identify promo abuse using user behavior analysis.
 
+device-level-promo-abuse-detection/
+│
+├── data/
+│   ├── users_1000_rows.csv
+│   ├── orders_1000_rows.csv
+│
+├── sql/
+│   ├── 01_table_creation.sql
+│   ├── 02_data_loading.sql
+│   ├── 03_data_validation.sql
+│   ├── 04_fraud_analysis.sql
+│   ├── 05_analytical_view.sql
+│
+├── powerbi/
+│   └── fraud_dashboard.pbix
+│
+├── python/
+│   └── fraud_analysis.py
+│
+├── outputs/
+│   └── fraud_user_summary_python.csv
+│
+└── README.md
+
+
 ## 🔴 Problem Statement 
 Online platforms that offer new-user promotions (such as discounts, cashback, or free deliveries) often face significant revenue leakage due to promo abuse. A common abuse pattern occurs when users create multiple accounts to repeatedly claim benefits intended for first-time users.
 
-#### Traditional fraud-prevention checks typically rely on phone numbers, email IDs, to identify unique users. However, these methods are easily bypassed because:
+**Traditional fraud-prevention checks typically rely on phone numbers, email IDs, to identify unique users. However, these methods are easily bypassed because:**
 <br> 1. Phone numbers can be changed or obtained easily.
 <br> 2. Email addresses can be created in seconds
 <br> 3. Users can log out and re-register with minimal effort
